@@ -1,0 +1,109 @@
+{
+    "window.zoomLevel": 0.2,
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "native",
+
+	"workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+
+    "symbols.hidesExplorerArrows": false,
+    "explorer.compactFolders": false,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+
+    "breadcrumbs.enabled": false,
+
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 12,
+
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+    },
+    "apc.header": {
+        "height": 25,
+        "fontSize": 12
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+    
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        // ".pane-body": "padding: 8px",
+        ".pane-header": "padding: 0 8px",
+    },
+
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "yarn.lock*, bun.lock*, .eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock*",
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+        "*.dart": "${capture}.g.dart",
+        "tailwind.config*": "tailwind.config*, postcss.config*",
+        ".env.local*": ".env*",
+        ".env": ".env*"
+    }
+
+    // "tabnine.experimentalAutoImports": true,
+    // "git.autofetch": true,
+    // "[dart]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.formatOnType": true,
+    //     "editor.rulers": [
+    //         80
+    //     ],
+    //     "editor.selectionHighlight": false,
+    //     "editor.suggest.snippetsPreventQuickSuggestions": false,
+    //     "editor.suggestSelection": "first",
+    //     "editor.tabCompletion": "onlySnippets",
+    //     "editor.wordBasedSuggestions": "off"
+    // },
+    // "terminal.integrated.defaultProfile.windows": "Git Bash",
+    
+    // "editor.accessibilitySupport": "off",
+    // "dart.debugExternalPackageLibraries": false,
+    // "dart.debugSdkLibraries": false,
+    // "editor.unicodeHighlight.nonBasicASCII": false,
+    // "terminal.integrated.fontFamily": "JetBrains Mono",
+    //             "terminal.integrated.fontSize": 14,
+    //             "terminal.integrated.defaultProfile.linux": "zsh",
+    //             "dart.flutterSdkPath": "/home/gabriel/Development/flutter",
+    //             "security.workspace.trust.untrustedFiles": "open",
+    //             "[typescriptreact]": {
+    //                 "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //             },
+    //             "[json]": {
+    //                 "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //             },
+    //             "typescript.updateImportsOnFileMove.enabled": "always",
+    //             "javascript.updateImportsOnFileMove.enabled": "always",
+    //             "[typescript]": {
+    //                 "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //             },
+    //             "window.menuBarVisibility": "toggle",
+    //             "workbench.colorTheme": "Min Dark",
+    //             "git.confirmSync": false,
+    //             "terminal.integrated.env.windows": {},
+    //             "console-ninja.featureSet": "Community",
+    //             "terminal.integrated.env.linux": {},
+}
